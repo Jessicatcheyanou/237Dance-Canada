@@ -10,6 +10,7 @@ import messageRoutes from "./routes/messageRoutes.js";
 dotenv.config();
 const app = express();
 
+// This allows your frontend to fetch data
 app.use(cors());
 app.use(express.json());
 
